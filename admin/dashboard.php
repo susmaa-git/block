@@ -184,6 +184,23 @@ require('auth/secure.php');
       </li><!-- End Tables Nav -->
       <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#tables-nav1" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-layout-text-window-reverse"></i><span>TESTIMONIALS</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="tables-nav1" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="../testimonials/create.php">
+              <i class="bi bi-circle"></i><span>ADD TESTIMONIALS</span>
+            </a>
+          </li>
+          <li>
+            <a href="../testimonials/index.php">
+              <i class="bi bi-circle"></i><span>MANAGE TESIMONIALS</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Tables Nav -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#tables-nav1" data-bs-toggle="collapse" href="#">
           <i class="bi bi-layout-text-window-reverse"></i><span>FILES</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
         <ul id="tables-nav1" class="nav-content collapse " data-bs-parent="#sidebar-nav">
